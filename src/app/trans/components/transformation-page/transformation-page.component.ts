@@ -1,3 +1,4 @@
+
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { TransformationsService } from '../../services/transformations.service';
@@ -94,3 +95,4 @@ export class TransformationPageComponent implements OnInit {
     this.router.navigate(['/characters']);
   }
 }
+

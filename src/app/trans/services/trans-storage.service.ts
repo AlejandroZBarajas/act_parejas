@@ -1,3 +1,4 @@
+
 import { Injectable } from '@angular/core';
 import { TransformationI } from '../../characters-module/interfaces/charactersResponse-i';
 
@@ -59,3 +60,4 @@ export class TransStorageService {
     console.log(this.transformations);
   }
 }
+

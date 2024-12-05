@@ -1,0 +1,22 @@
+<div class="card">
+  <div class="card-image">
+    <img [src]="characterData?.image" [alt]="characterData?.name" />
+  </div>
+  <div class="card-content">
+    <h2>{{ characterData?.name }}</h2>
+    <p><strong>Ki:</strong> {{ characterData?.ki }}</p>
+    <p><strong>Max Ki:</strong> {{ characterData?.maxKi }}</p>
+    <p><strong>Race:</strong> {{ characterData?.race }}</p>
+    <p><strong>Gender:</strong> {{ characterData?.gender }}</p>
+    <p><strong>Affiliation:</strong> {{ characterData?.affiliation }}</p>
+    <p><strong>Description:</strong> {{ characterData?.description }}</p>
+    <div class="card-buttons">
+      <button (click)="toTransformation(this.characterData?.id)">
+        Ver transformaciones
+      </button>
+
+      <button (click)="openModalPlanet()">Ver Planeta de origen</button>
+    </div>
+  </div>
+</div>
+<app-planets-modal></app-planets-modal>
