@@ -1,0 +1,9 @@
+img {
+  width: 100%;
+  max-width: 600px;
+  max-height: 600px;
+  object-fit: cover;
+  margin: 20px auto;
+  border-radius: 8px;
+  display: block;
+}
