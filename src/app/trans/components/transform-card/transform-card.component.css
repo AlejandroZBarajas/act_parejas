@@ -1,3 +1,4 @@
+
 .transformation-card {
   width: 280px;
   height: 300px;
@@ -81,3 +82,4 @@ div *ngFor {
 .modal-content button {
   margin-right: 10px;
 }
+

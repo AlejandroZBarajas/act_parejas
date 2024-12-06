@@ -1,3 +1,4 @@
+
   export class Transformation {
     id: number;
     ki:number;
@@ -17,4 +18,3 @@
       return `${this.id}, ${this.name}, ${this.ki} ${this.image}, ${this.characterName}`;
     }
   }
-  

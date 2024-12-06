@@ -1,3 +1,4 @@
+
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TransformCardComponent } from './components/transform-card/transform-card.component';
@@ -10,3 +11,4 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
   exports: [TransformCardComponent, TransformationPageComponent],
 })
 export class TransModule {}
+

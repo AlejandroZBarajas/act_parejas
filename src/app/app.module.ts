@@ -1,3 +1,4 @@
+
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {
@@ -27,3 +28,4 @@ import { PlanetsModuleModule } from './planets-module/planets-module.module';
   bootstrap: [AppComponent],
 })
 export class AppModule {}
+
