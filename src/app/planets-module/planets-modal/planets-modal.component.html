@@ -1,0 +1,10 @@
+<div class="modal-overlay" *ngIf="isOpen">
+  <div class="modal-content">
+    <button class="close-button" (click)="closeModal()">X</button>
+    <h1>Planet:</h1>
+    <app-planet-card
+      *ngIf="characterPlanet"
+      [planet]="characterPlanet"
+    ></app-planet-card>
+  </div>
+</div>

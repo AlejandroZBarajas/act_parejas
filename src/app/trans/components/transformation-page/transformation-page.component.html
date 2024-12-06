@@ -1,0 +1,14 @@
+
+<h1>Transformations of {{ character?.name }}</h1>
+
+<div>
+  <div *ngFor="let transformation of localCharacterTransformations">
+    <app-transform-card
+      [transformationData]="transformation"
+      (saveControl)="updateTransformation($event)"
+    ></app-transform-card>
+  </div>
+  <button (click)="toNextTrasformation()">Siguiente</button>
+  <button (click)="toPrevTrasformation()">Anterior</button>
+  <button (click)="returnToCharacters()">Regresar a personajes</button>
+</div>

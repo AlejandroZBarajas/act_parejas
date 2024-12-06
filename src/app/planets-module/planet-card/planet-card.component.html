@@ -1,0 +1,11 @@
+<div class="card">
+  <div class="card-image">
+    <img [src]="planet?.image" [alt]="planet?.name" />
+  </div>
+  <div class="card-content">
+    <h2>{{ planet?.name }}</h2>
+    <p><strong>Descripción:</strong> {{ planet?.description }}</p>
+    <p><strong>ID:</strong> {{ planet?.id }}</p>
+    <p><strong>Destroyed:</strong> {{ planet?.isDestroyed }}</p>
+  </div>
+</div>

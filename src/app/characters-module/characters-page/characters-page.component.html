@@ -1,0 +1,7 @@
+<label for="input">Nombre</label>
+<input id="input" [(ngModel)]="inputValue" placeholder="Nombre" />
+<button (click)="loadCharacters()">Iniciar</button>
+
+<div *ngFor="let character of charactersList">
+  <app-characters-card [characterData]="character"></app-characters-card>
+</div>
